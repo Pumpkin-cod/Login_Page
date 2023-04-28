@@ -1,0 +1,38 @@
+.App{
+  margin:6rem 10rem;
+  border: 2px solid black;
+  width: 60%;
+  padding-bottom: 3rem;
+  /* padding-left: 3rem; */
+}
+.main{
+  padding: 2rem 6rem;
+}
+/* .centered-column {
+  width: auto !important;
+} */
+
+/* .field{
+  width: 80% !important;
+} */
+.cards{
+margin-bottom: 2rem !important;
+margin-left: 6rem !important;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+}
+
+.data{
+  padding-top: 1rem;
+  margin-left: 2rem;
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.1rem;
+}
+
