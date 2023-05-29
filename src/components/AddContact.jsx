@@ -41,11 +41,11 @@ const AddContact = ({ onAdd }) => {
                     />
                 </div>
                 <div className='field'>
-                    <label>Phone</label>
+                    <label>Gen</label>
                     <input
                         type='text'
                         name='phone'
-                        placeholder='Phone'
+                        placeholder='Gen'
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
                     />
